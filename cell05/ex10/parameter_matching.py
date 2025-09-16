@@ -1,12 +1,11 @@
-import sys   # นำเข้าโมดูล sys เพื่อใช้เข้าถึง argument ที่ส่งมาตอนรันโปรแกรม
-
+import sys
 def main():
     # เช็คว่ามี argument ที่ส่งมาตอนรันโปรแกรมหรือไม่ (ต้องมี 1 argument พอดี) ถ้าไม่ใช่ → จบการทำงาน
     if len(sys.argv) != 2:
         print("none")
         return   
 
-    param = sys.argv[1] # เก็บค่าพารามิเตอร์ที่ผู้ใช้ส่งมาตอนรันโปรแกรม (argument ตัวที่ 1)
+    param = sys.argv[1] # เก็บค่าพารามิเตอร์
 
     user_input = input("What was the parameter? ")     # ขอให้ผู้ใช้พิมพ์สิ่งที่คิดว่าเป็น parameter
 
