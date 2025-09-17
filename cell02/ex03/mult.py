@@ -1,14 +1,14 @@
 try:
-    num_1 = int(input("Enter the first number: \n"))
-    num_2 = int(input("Enter the second number: \n"))
+    num1 = int(input("Enter the first number: \n"))
+    num2 = int(input("Enter the second number: \n"))
 
-    multresult = num_1 * num_2
+    result = num1 * num2
 
-    print(f"{num_1} x {num_2} = {multresult}")
+    print(f"{num1} x {num2} = {result}")
 
-    if (multresult == 0):
+    if (result == 0):
         print("The result is positive and negative.\n")
-    elif (multresult > 0):
+    elif (result > 0):
         print("The result is positive.\n")
     else:
         print("The result is negative.\n")
